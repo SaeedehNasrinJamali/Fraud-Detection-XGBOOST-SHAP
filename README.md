@@ -63,6 +63,14 @@ This project helps understand:
 | ROC-AUC | Overall separability between fraud/non-fraud classes |
 
 ---
+### Confusion Matrix Interpretation
+| Actual \ Predicted | Non-Fraud | Fraud |
+|--------------------|------------|-------|
+| **Non-Fraud** | 138 ✅ | 13 ❌ |
+| **Fraud** | 23 ❌ | 26 ✅ |
+
+- **Accuracy:** 0.82 **ROC-AUC:** 0.79  
+- The model correctly detects most non-fraud cases and identifies about 53 % of fraud cases.
 
 ##  Next Steps
 
