@@ -350,43 +350,12 @@ print("ROC AUC:", roc_auc_score(y_test, y_pred_prob))
 RocCurveDisplay.from_predictions(y_test, y_pred_prob)
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[69]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
