@@ -56,7 +56,7 @@ xgb_model = XGBClassifier(
 )
 
 xgb_model.fit(Xtr, ytr)
-print("✅ XGBoost model trained successfully.")
+print(" XGBoost model trained successfully.")
 
 # =========================
 # 4) Predictions
