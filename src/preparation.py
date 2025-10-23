@@ -1,18 +1,21 @@
 """
-Prepration Script 
+Preparation Script
 Author: Saeedeh Nasrin Jamali
+Version: 0.1
+Description:
+    End-to-end data prep for fraud detection.
 
-- Imports
-- Data loading
-- Basic inspection (head/info/describe)
-- Column selection
-- Target mapping
-- EDA plots (correlations, distributions, imbalance)
-- Missing-value summaries
-- Categorical counts
-- Placeholder replacements for '?' in selected columns
-- One-hot encoding (dummies)
-- Final cleaned dataframe ready for modeling (df_cleaned)
+Steps:
+    - Import libraries
+    - Load raw data from `data/insurance_claims.csv`
+    - Inspect data (head/info/describe)
+    - Select/rename columns
+    - Map target labels
+    - Exploratory plots (correlations, distributions, class imbalance)
+    - Summarize missing values
+    - Clean placeholders ('?') in selected columns
+    - One-hot encode categorical features
+    - Produce final cleaned DataFrame `df_cleaned` for modeling
 
 """
 
