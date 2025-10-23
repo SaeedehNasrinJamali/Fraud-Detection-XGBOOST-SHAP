@@ -21,7 +21,6 @@ Author: Saeedeh Nasrin Jamali
 # =========================
 import pandas as pd
 import numpy as np
-get_ipython().run_line_magic('pip', 'install xgboost')
 
 # =========================
 # 2) Load Data
