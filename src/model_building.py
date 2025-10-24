@@ -80,7 +80,7 @@ print(f"\nROC AUC: {roc_auc:.3f}")
 RocCurveDisplay.from_predictions(y_test, y_pred_prob)
 
 # =========================
-# 6) Next Steps (optional extensions)
+# 6) Next Steps 
 # =========================
 # - Add SHAP explainability analysis
 # - Apply hyperparameter tuning (GridSearchCV / Optuna)
