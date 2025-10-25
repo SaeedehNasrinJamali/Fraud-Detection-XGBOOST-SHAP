@@ -73,14 +73,11 @@ This project helps understand:
 - The model correctly detects most non-fraud cases and identifies about 53 % of fraud cases.
 
 ##  Next Steps
-
-- Add SHAP explainability plots  
+ 
 - Apply hyperparameter tuning (`RandomizedSearchCV` or `Optuna`)  
 - Handle class imbalance with `scale_pos_weight` or SMOTE  
 - Save model using `joblib.dump()` for deployment  
 - Build a simple Flask API to serve real-time fraud predictions
-
-
 
 ---
 ##  Model Explainability (SHAP)
