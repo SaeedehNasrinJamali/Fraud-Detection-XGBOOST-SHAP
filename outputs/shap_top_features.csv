@@ -1,0 +1,21 @@
+,mean_abs_SHAP
+incident_severity_Major Damage,2.295421
+auto_year,0.6538945
+policy_annual_premium,0.639016
+insured_hobbies_chess,0.5614779
+injury_claim,0.54028255
+vehicle_claim,0.46518165
+insured_hobbies_cross-fit,0.43065223
+age,0.4168497
+property_claim,0.36504394
+months_as_customer,0.33317363
+witnesses,0.29110327
+incident_severity_Minor Damage,0.27978536
+incident_state_SC,0.24822663
+umbrella_limit,0.21217576
+bodily_injuries,0.20350277
+incident_state_WV,0.19159833
+property_damage_NO,0.18964756
+collision_type_Rear Collision,0.15866865
+police_report_available_NO,0.15144002
+insured_relationship_other-relative,0.14629218
