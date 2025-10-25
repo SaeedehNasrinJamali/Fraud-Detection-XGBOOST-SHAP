@@ -84,10 +84,10 @@ This project helps understand:
 
 ---
 ##  Model Explainability (SHAP)
-SHAP values show how each feature impacts the prediction.
+To ensure transparency and interpretability, SHAP (SHapley Additive exPlanations) was used to understand how each variable contributes to the fraud prediction made by the XGBoost model. 
 Example plots:
-- SHAP summary plot for all features
-- SHAP dependence plot for key drivers
+![Beeswarm](outputs/shap_summary_beeswarm.png)
+![Bar Plot](outputs/shap_summary_bar.png)
 
 ##  Requirements
 
