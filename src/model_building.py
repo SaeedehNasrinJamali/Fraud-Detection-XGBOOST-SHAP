@@ -54,7 +54,6 @@ xgb_model = XGBClassifier(
     eval_metric="logloss",
     tree_method="hist"
 )
-
 xgb_model.fit(Xtr, ytr)
 print(" XGBoost model trained successfully.")
 
