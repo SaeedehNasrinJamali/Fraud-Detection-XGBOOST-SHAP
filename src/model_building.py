@@ -81,7 +81,7 @@ RocCurveDisplay.from_predictions(y_test, y_pred_prob)
 # =========================
 # 6) Next Steps 
 # =========================
-# - Add SHAP explainability analysis
+# 
 # - Apply hyperparameter tuning (GridSearchCV / Optuna)
 # - Handle class imbalance (SMOTE or scale_pos_weight)
 # - Save model using joblib.dump()
