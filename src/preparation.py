@@ -1,23 +1,20 @@
+
 """
-Preparation Script
+Insurance Fraud Data Preparation Module.
+
+This module provides a production-ready pipeline to clean, engineer, 
+and transform raw insurance claim data into a model-ready format. 
+
+Key Functionalities:
+    - Data Ingestion: Loads raw CSV data from the local repository.
+    - Data Cleaning: Handles '?' placeholders and maps categorical targets.
+    - Feature Engineering: Implements One-Hot Encoding for XGBoost compatibility.
+    - Quality Assurance: Validates data types and handles missing values.
+
 Author: Saeedeh Nasrin Jamali
-Version: 0.1
-Description:
-    End-to-end data prep for fraud detection.
-
-Steps:
-    - Import libraries
-    - Load raw data from `data/insurance_claims.csv`
-    - Inspect data (head/info/describe)
-    - Select/rename columns
-    - Map target labels
-    - Exploratory plots (correlations, distributions, class imbalance)
-    - Summarize missing values
-    - Clean placeholders ('?') in selected columns
-    - One-hot encode categorical features
-    - Produce final cleaned DataFrame `df_cleaned` for modeling
-
+Version: 1.0.0
 """
+
 
 # =========================
 # 1) Imports & Setup
